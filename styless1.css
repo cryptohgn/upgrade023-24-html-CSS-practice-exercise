@@ -1,0 +1,12 @@
+.tarjeta {
+    border: 2px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: grey;
+    color: white;
+    margin-bottom: 10px;
+}
+.nostylelink{
+    text-decoration: none;
+    color: lightblue;
+}
