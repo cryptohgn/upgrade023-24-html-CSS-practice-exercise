@@ -10,3 +10,8 @@
     text-decoration: none;
     color: lightblue;
 }
+
+.imgSize {
+    width: 100px;
+    border-radius: 5px;
+}
