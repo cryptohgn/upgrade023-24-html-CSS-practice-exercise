@@ -33,15 +33,15 @@
         <div>
             <!-- Nombre de usuario. Campo obligatorio, entre 5-40 carácteres -->
             <label for="nombre">Nombre:</label>    
-            <input type="text" name="nombre" minlength="5" maxlength="40" id="name">        
+            <input type="text" name="nombre" placeholder="Name" pattern="[A-Za-z]+ minlength="5" maxlength="40"  id="name">        
         </div>
         <div>
             <!-- Contraseña. Campo obligatorio, mínimo 11 carácteres -->
             <label for="password">Contraseña</label>
-            <input type="text" name="password" id="password" minlength="11" required>
+            <input type="text" name="password" placeholder="******" pattern="[A-Za-z0-9]+" id="password" minlength="11" required>
         </div>
         <p>Complete la información para su registro</p>
         <button type="submit">Enviar</button>    
     </form>
-</body>
-</html>
+    </body>
+    </html>
