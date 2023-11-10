@@ -1,0 +1,17 @@
+.enlista{
+    display: block;
+    margin: 5px 0;
+}
+//usamos psudoclases de validación: valid e invalid
+input:valid {
+    background: lightblue;
+}
+
+input:invalid {
+    background: red;
+}
+
+//También se pueden dar estilos haciendo uso de los atributos de las etiquetas HTML, es decir:
+input[type="text"] {
+    margin-bottom: 20px;
+  }
